@@ -2,7 +2,7 @@ from powerline_shell.themes.default import DefaultColor
 
 
 class Color(DefaultColor):
-    """Basic theme which only uses colors in 0-15 range"""
+    
     USERNAME_FG = 0
     USERNAME_BG = 99
     USERNAME_ROOT_BG = 9
@@ -20,10 +20,10 @@ class Color(DefaultColor):
     READONLY_BG = 1
     READONLY_FG = 15
 
-    REPO_CLEAN_BG = 2   # green
-    REPO_CLEAN_FG = 0   # black
-    REPO_DIRTY_BG = 1   # red
-    REPO_DIRTY_FG = 15  # white
+    REPO_CLEAN_BG = 2   
+    REPO_CLEAN_FG = 0   
+    REPO_DIRTY_BG = 1  
+    REPO_DIRTY_FG = 15  
 
     JOBS_FG = 14
     JOBS_BG = 8
