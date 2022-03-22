@@ -1,0 +1,14 @@
+[Reboot]
+full_text= Reboot
+command=reboot
+color=#7401DF
+
+[Shutdown]
+full_text= Shutdown
+command=poweroff
+color=#7401DF
+
+[Date]
+command=date +" %a, %d %b - %H:%M"
+interval=60
+
