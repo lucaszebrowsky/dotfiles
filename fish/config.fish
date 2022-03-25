@@ -1,7 +1,6 @@
 if status is-interactive
     pfetch
-    cowsay -e oO -T U Welcome back, Master! :P
-    # Commands to run in interactive sessions can go here
+    #cowsay -e oO -T U Welcome back, Master! :P
 end
 
 function fish_prompt
