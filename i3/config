@@ -27,7 +27,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id feh --bg-scale ~/Bilder/Lu-s-Wallpaper-Collection/Wallpapers/ign_rick.png
 
 # Load Nvidia Settings
-exec --no-startup-id /usr/bin/nvidia-settings --load-config-only
+#exec --no-startup-id /usr/bin/nvidia-settings --load-config-only
 
 # Autostart of some Apps
 exec --no-startup-id flameshot
