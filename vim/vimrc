@@ -1,0 +1,8 @@
+set belloff=all
+set number
+syntax on
+set smartindent
+set nocompatible
+set clipboard=unnamed
+set background=dark
+colo gruvbox
