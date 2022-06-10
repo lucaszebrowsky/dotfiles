@@ -1,6 +1,7 @@
 set belloff=all
 set number
 syntax on
+filetype indent on
 set smartindent
 set nocompatible
 set clipboard=unnamed
