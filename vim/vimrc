@@ -7,3 +7,4 @@ set nocompatible
 set clipboard=unnamed
 set background=dark
 colo gruvbox
+let &t_ut=''
