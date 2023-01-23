@@ -1,10 +1,12 @@
 set belloff=all
 set number
-syntax on
+syntax enable
 filetype indent on
-set smartindent
+set autoindent
+set tabstop=4
 set nocompatible
 set clipboard=unnamed
 set background=dark
-colo gruvbox
+colorscheme gruvbox
 let &t_ut=''
+set termguicolors
