@@ -47,6 +47,7 @@ function fish_prompt
         set_color -o cyan
     end
 
+    set_color -o 875fff
     echo -n (prompt_hostname)
     set_color d7005f
     #echo -n :(prompt_pwd)
