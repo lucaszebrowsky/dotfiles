@@ -76,14 +76,14 @@ function fish_prompt
     end
 
     echo -n (prompt_hostname)
-    #set_color -o light blue
     set_color d7005f
-    echo -n :(prompt_pwd)
+    #echo -n :(prompt_pwd)
     set_color -o d7afff
     echo -n ']'
 
     # Date
-    _nim_prompt_wrapper $retc '' (date +%X)
+    #_nim_prompt_wrapper $retc '' (date +%X)
+    _nim_prompt_wrapper $retc '' (prompt_pwd)
 
     # Vi-mode
     # The default mode prompt would be prefixed, which ruins our alignment.
