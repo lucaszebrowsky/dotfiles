@@ -1,5 +1,6 @@
 # Alias
 alias clr="clear"
+alias vim="nvim"
 
 # Env Variables
 set -u fish_greeting
@@ -10,7 +11,7 @@ set -Ux MOZ_ENABLE_WAYLAND 1
 
 
 if status is-interactive
-    uwufetch
+	neofetch
 end
 
 
