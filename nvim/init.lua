@@ -9,4 +9,4 @@ vim.opt.background  = "dark"
 vim.opt.termguicolors = true
 
 vim.cmd("colorscheme gruvbox")
-inoremap {<Enter> {<Enter>}<Esc>O
+vim.cmd("inoremap {<Enter> {<Enter>}<Esc>O")
