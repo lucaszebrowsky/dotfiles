@@ -10,4 +10,6 @@ vim.opt.termguicolors = true
 vim.opt.cursorline = true
 
 vim.cmd("colorscheme gruvbox")
-vim.cmd("inoremap {<Enter> {<Enter>}<Esc>O")
+
+vim.api.nvim_set_keymap('i', '{', '{<CR>}<Esc>O', { noremap = true })
+vim.api.nvim_set_keymap('i', '(', '()<Left>', { noremap = true })
