@@ -11,5 +11,9 @@ vim.opt.cursorline = true
 
 vim.cmd("colorscheme gruvbox")
 
-vim.api.nvim_set_keymap('i', '{', '{<CR>}<Esc>O', { noremap = true })
+-- Autocompletion
+vim.api.nvim_set_keymap('i', '{', '{}<Left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '<CR>', '<CR><Esc>O<BS><Tab>', { noremap = true })
 vim.api.nvim_set_keymap('i', '(', '()<Left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '"', '""<Left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '`', '``<Left>', { noremap = true })
