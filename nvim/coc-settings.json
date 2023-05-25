@@ -1,0 +1,6 @@
+{
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextError": true,
+  "diagnostic.virtualTextWarning": true,
+  "diagnostic.virtualTextCurrentLineOnly": false
+}
