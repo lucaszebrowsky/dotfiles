@@ -39,11 +39,12 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   
   use {'neoclide/coc.nvim', branch = 'release'} 
-  
-  use {
-    'chikko80/error-lens.nvim',
-     requires = {'nvim-telescope/telescope.nvim'}
-  }
+
+  use "sbdchd/neoformat"
+  --use {
+  --  'chikko80/error-lens.nvim',
+  --   requires = {'nvim-telescope/telescope.nvim'}
+  --}
    
   use {
 	"windwp/nvim-autopairs",
