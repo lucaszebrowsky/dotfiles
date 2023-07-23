@@ -1,4 +1,9 @@
 BasedOnStyle: Google
-IndentWidth: 4
-UseTab: Never
+IndentWidth: 8
+UseTab: Always
 BreakBeforeBraces: Attach
+Cpp11BracedListStyle: false
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: None
+PointerAlignment: Left
+SortIncludes: Never
