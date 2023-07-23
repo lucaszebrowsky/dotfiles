@@ -8,7 +8,7 @@
 #   https://clang.llvm.org/docs/ClangFormat.html
 #   https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 #
-# This is the clang-format from the Linux Kernel, the only # # thing I changed is the alignment of pointers( left
+# This is the clang-format from the Linux Kernel, the only thing I changed is the alignment of pointers (left
 # instead of right)
 ---
 AccessModifierOffset: -4
