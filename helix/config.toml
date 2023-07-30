@@ -1,0 +1,10 @@
+theme = "onedark"
+
+[editor]
+idle-timeout = 0
+cursorline = true
+auto-save = true
+rulers = [80]
+
+[editor.cursor-shape]
+insert = "bar"

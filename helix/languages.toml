@@ -1,0 +1,23 @@
+[[language]]
+name = "c"
+auto-format = true
+formatter = { command = "clang-format" ,args = [] }
+
+[[language]]
+name = "cpp"
+auto-format = true
+formatter = { command = "clang-format" ,args = [] }
+
+[[language]]
+name = "rust"
+auto-format = true
+
+[[language]]
+name = "javascript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "typescript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
