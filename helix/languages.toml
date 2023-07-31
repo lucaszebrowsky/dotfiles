@@ -1,12 +1,13 @@
 [[language]]
 name = "c"
-auto-format = true
+indent = {tab-width = 4,unit = "\t"}
 formatter = { command = "clang-format" ,args = [] }
+auto-format = true
 
 [[language]]
 name = "cpp"
-auto-format = true
 formatter = { command = "clang-format" ,args = [] }
+auto-format = true
 
 [[language]]
 name = "rust"
