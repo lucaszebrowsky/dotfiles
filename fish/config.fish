@@ -14,12 +14,12 @@ set -gx --path XDG_DATA_DIRS $xdg_data_home[1]/flatpak/exports/share:/var/lib/fl
 set -Ux MOZ_ENABLE_WAYLAND 1
 
 if status is-interactive
-    if not set -q TMUX
-        set -g TMUX tmux new-session -d -s base
-        eval $TMUX
-        tmux attach-session -d -t base
-    end
-        neofetch    
+    # if not set -q TMUX
+    #     set -g TMUX tmux new-session -d -s base
+    #     eval $TMUX
+    #     tmux attach-session -d -t base
+    # end
+    neofetch    
 end
 
 
