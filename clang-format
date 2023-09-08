@@ -9,8 +9,8 @@
 #   https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 #
 # Modified by: Lu-Die-Milchkuh
-# This is the clang-format from the Linux Kernel, the only thing I changed is the alignment of pointers (left
-# instead of right) and the tab width to be 4 instead of 8
+# This is the clang-format from the Linux Kernel, the only thing I changed is
+# the tab width to be 4 instead of 8
 ---
 Language: Cpp
 AccessModifierOffset: -4
@@ -669,7 +669,7 @@ PenaltyBreakString: 10
 PenaltyExcessCharacter: 100
 PenaltyReturnTypeOnItsOwnLine: 60
 
-PointerAlignment: Left
+PointerAlignment: Right
 ReflowComments: false
 SortIncludes: false
 SortUsingDeclarations: false
