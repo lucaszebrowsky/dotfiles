@@ -33,8 +33,3 @@ auto-format = true
 name = "css"
 formatter = { command = 'prettier', args = ["--parser", "css"] }
 auto-format = true
-
-[[language]]
-name = "bash"
-indent = {tab-width = 4,unit = "\t"}
-auto-format = true
