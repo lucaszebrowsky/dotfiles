@@ -2,6 +2,7 @@
 alias clr="clear"
 alias vim="nvim"
 alias ssh="kitty +kitten ssh"
+alias hx="helix"
 
 # Workaround for using sudo + vim alias:
 # create a symlink called "vim" to "nvim"
@@ -22,9 +23,12 @@ if status is-interactive
     neofetch    
 end
 
-
 for flatpakdir in ~/.local/share/flatpak/exports/bin /var/lib/flatpak/exports/bin
     if test -d $flatpakdir
         contains $flatpakdir $PATH; or set -a PATH $flatpakdir
     end
 end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
