@@ -4,6 +4,7 @@ theme = "onedark"
 idle-timeout = 0
 cursorline = true
 auto-save = true
+auto-format = true
 rulers = [80]
 
 [editor.cursor-shape]
