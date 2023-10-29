@@ -1,12 +1,12 @@
 [[language]]
 name = "c"
-indent = { tab-width = 4, unit = "\t" }
+indent = {tab-width = 4,unit = "\t"}
 formatter = { command = "clang-format" ,args = [] }
 auto-format = true
 
 [[language]]
 name = "cpp"
-indent = { tab-width = 4, unit = "\t" }
+indent = {tab-width = 4,unit = "\t"}
 formatter = { command = "clang-format" ,args = [] }
 auto-format = true
 
@@ -16,13 +16,13 @@ auto-format = true
 
 [[language]]
 name = "javascript"
-indent = { tab-width = 4, unit = "\t" }
+indent = {tab-width = 4,unit = "\t"}
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
 
 [[language]]
 name = "typescript"
-indent = { tab-width = 4, unit = "\t" }
+indent = {tab-width = 4,unit = "\t"}
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
 
@@ -38,4 +38,8 @@ auto-format = true
 
 [[language]]
 name = "php"
+auto-format = true
+
+[[language]]
+name = "python"
 auto-format = true
