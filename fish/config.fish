@@ -1,8 +1,8 @@
 # Alias
 alias clr="clear"
-alias vim="nvim"
-alias ssh="kitty +kitten ssh"
-alias hx="helix"
+# alias vim="nvim"
+# alias ssh="kitty +kitten ssh"
+# alias hx="helix"
 
 # Workaround for using sudo + vim alias:
 # create a symlink called "vim" to "nvim"
