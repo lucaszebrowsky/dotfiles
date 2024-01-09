@@ -3,6 +3,7 @@ theme = "onedark"
 [editor]
 true-color = true
 idle-timeout = 0
+preview-completion-insert = false
 cursorline = true
 auto-save = true
 auto-format = true
