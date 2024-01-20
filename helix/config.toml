@@ -1,4 +1,4 @@
-theme = "onedark"
+theme = "dark_plus"
 
 [editor]
 true-color = true
@@ -8,6 +8,7 @@ auto-save = true
 auto-format = true
 rulers = [80]
 completion-replace = true
+auto-info = false
 
 [editor.cursor-shape]
 insert = "bar"
