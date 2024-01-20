@@ -1,0 +1,44 @@
+[font]
+size = 16.0
+
+[font.normal]
+family = "FiraCode"
+style = "SemiBold"
+
+[font.bold]
+family = "FiraCode"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode"
+style = "Italic"
+
+[window]
+opacity = 0.85
+blur = true
+padding = { x = 5, y = 5 }
+# option_as_alt = "OnlyLeft"
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[colors]
+selection = { text = "#262525", background = "#9c64fe" }
+
+[colors.primary]
+foreground = "#c4c4b5"
+background = "#0f0f0f" 
+
+[colors.normal]
+black = "#191919"
+red = "#f3005f"
+green = "#97e023"
+yellow = "#f2f200"
+blue = "#007acc"
+magenta = "#9c64fe"
+cyan = "#57d1ea"
+white = "#f6f6ee"
