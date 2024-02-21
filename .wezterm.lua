@@ -5,7 +5,7 @@ local SOLID_RIGHT_ARROW = wezterm.nerdfonts.pl_left_hard_divider
 
 local config = {
 
-	front_end = "WebGpu",
+	-- front_end = "WebGpu",
 
 	-- Window Config
 	window_padding = {
@@ -162,9 +162,9 @@ wezterm.on(
 						table.insert(items, { Background = { Color = inactive_background } })
 						table.insert(items, { Foreground = { Color = inactive_background } })
 					end
-				else
-					table.insert(items, { Background = { Color = inactive_background } })
-					table.insert(items, { Foreground = { Color = active_background } })
+					-- else
+					-- table.insert(items, { Background = { Color = inactive_background } })
+					-- table.insert(items, { Foreground = { Color = active_background } })
 				end
 			end
 			table.insert(items, { Text = SOLID_RIGHT_ARROW })
