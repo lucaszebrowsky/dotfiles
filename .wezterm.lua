@@ -21,7 +21,7 @@ local config = {
 	use_fancy_tab_bar = false,
 	tab_bar_at_bottom = true,
 	show_new_tab_button_in_tab_bar = false,
-	tab_max_width = 32,
+	-- tab_max_width = 16,
 
 	-- Font Config
 	font = wezterm.font('Fira Code SemiBold', { weight = "DemiBold" }),
@@ -93,12 +93,9 @@ for i = 1, 8 do
 	})
 end
 
-local function tab_title(tab_info)
-	local title = tab_info.tab_title
-	if title and #title > 0 then
-		return title
-	end
-	return tab_info.active_pane.title
+local function getTabTitle(tab_info)
+	local processName = tab_info.active_pane.foreground_process_name
+	return string.gsub(processName, '(.*[/\\])(.*)', '%2')
 end
 
 wezterm.on(
@@ -109,7 +106,7 @@ wezterm.on(
 		local inactive_background = "#282c34"
 		local inactive_foreground = "#aab2bf"
 		local transparent = "rgba(0,0,0,0)"
-		local title = tab_title(tab)
+		local title = getTabTitle(tab)
 		local index = tab.tab_index + 1
 		local isFirst = index == 1
 		local isLast = index == #tabs and #tabs ~= 0
