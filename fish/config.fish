@@ -9,13 +9,12 @@ alias grep='grep --color=auto'
 set -U fish_greeting
 set -Ux GTK_USE_PORTAL 1
 
+if type -q helix
+	alias hx="helix"
+end
+
 if status is-interactive
-    if not set -q TMUX
-        set -g TMUX tmux new-session -d -s main
-        eval $TMUX
-        tmux attach-session -d -t main
-    end
-    neofetch    
+   neofetch    
 end
 
 # bun
