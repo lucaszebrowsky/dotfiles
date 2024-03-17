@@ -9,6 +9,10 @@ auto-format = true
 rulers = [80]
 completion-replace = true
 auto-info = false
+line-number = "relative"
+
+[editor.lsp]
+display-inlay-hints = true
 
 [editor.cursor-shape]
 insert = "bar"
