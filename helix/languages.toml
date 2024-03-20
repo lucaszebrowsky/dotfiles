@@ -1,3 +1,6 @@
+[language-server.clangd.config]
+fallbackFlags = ["-std=gnu11","-Wpedantic","-Wall","-Wextra","-Werror"]
+
 # Low Level Languages
 [[language]]
 name = "c"
