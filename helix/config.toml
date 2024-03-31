@@ -10,6 +10,7 @@ rulers = [80]
 completion-replace = true
 auto-info = false
 line-number = "relative"
+popup-border="all"
 
 [editor.lsp]
 display-inlay-hints = true
