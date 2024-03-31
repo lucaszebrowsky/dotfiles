@@ -1,5 +1,6 @@
+# LSP
 [language-server.clangd.config]
-fallbackFlags = ["-std=gnu11","-Wpedantic","-Wall","-Wextra","-Werror"]
+fallbackFlags = ["-std=gnu11","-Wpedantic","-Wall","-Wextra","-Werror","-Iinclude"]
 
 # Low Level Languages
 [[language]]
