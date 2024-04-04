@@ -12,9 +12,6 @@ auto-info = false
 line-number = "relative"
 popup-border="all"
 
-[editor.lsp]
-display-inlay-hints = true
-
 [editor.cursor-shape]
 insert = "bar"
 
