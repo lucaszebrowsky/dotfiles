@@ -1,0 +1,86 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "separator": "  ->  ",
+    "keyWidth": 8
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┌───────── Hardware Information ─────────┐" 
+    },
+    "break",
+    {
+      "type": "cpu",
+      "key": "󰍛"
+    },
+    {
+      "type": "gpu",
+      "key": "󰘚"
+    },
+    {
+      "type": "memory",
+      "key": "󰑭"
+    },
+    {
+      "type": "swap",
+      "key": "󰑭"
+    },
+    {
+      "type": "display",
+      "key": "󰍹",
+      "compactType": "original-with-refresh-rate"
+    },
+    {
+      "type": "disk",
+      "key": ""
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "├───────── Software Information ─────────┤"
+      
+    },
+    "break",
+    {
+      "type": "os",
+      "key": ""
+    },
+    {
+      "type": "kernel",
+      "key": ""
+    },
+    
+    {
+      "type": "de",
+      "key": ""
+    },
+    {
+      "type": "wm",
+      "key": ""
+    },
+    {
+      "type": "shell",
+      "key": ""
+    },
+    {
+      "type": "terminal",
+      "key": ""
+    },
+    {
+      "type": "terminalfont",
+      "key": "🗛"
+    },
+    {
+      "type": "packages",
+      "key": "󰊠"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────┘"
+      
+    },
+    "colors"
+  ]
+}
