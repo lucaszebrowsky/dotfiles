@@ -6,13 +6,13 @@ fallbackFlags = ["-xc","-std=c11","-Wpedantic","-Wall","-Wextra","-Werror","-Iin
 [[language]]
 name = "c"
 indent = { tab-width = 4, unit = "\t" }
-formatter = { command = "clang-format" , args = ["-style=file:/home/lu/.clang-format"] }
+formatter = { command = "clang-format" }
 auto-format = true
 
 [[language]]
 name = "cpp"
 indent = { tab-width = 4, unit = "\t" }
-formatter = { command = "clang-format", args = ["-style=file:/home/lu/.clang-format"] }
+formatter = { command = "clang-format" }
 auto-format = true
 
 [[language]]
