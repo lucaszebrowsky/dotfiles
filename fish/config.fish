@@ -10,14 +10,11 @@ set -U fish_greeting
 set -Ux GTK_USE_PORTAL 1
 
 if status is-interactive
-    # if not set -q TMUX
-    # set -g TMUX tmux new-session -d -s main
-    # eval $TMUX
-    # tmux attach-session -d -t main
-    # end
-    # neofetch    
+    if test $TERM = xterm-kitty
+        alias ssh="kitten ssh"
+    end
 end
 
 # bun
-set --export BUN_INSTALL "$HOME/.bun"
-set --export PATH $BUN_INSTALL/bin $PATH
+# set --export BUN_INSTALL "$HOME/.bun"
+# set --export PATH $BUN_INSTALL/bin $PATH
