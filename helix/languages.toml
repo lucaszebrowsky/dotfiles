@@ -1,5 +1,8 @@
 # LSP
-[language-server.clangd.config]
+[language-server.clangd-c]
+command = "clangd"
+
+[language-server.clangd-c.config]
 fallbackFlags = ["-xc","-std=c11","-Wpedantic","-Wall","-Wextra","-Werror","-Iinclude"]
 
 # Low Level Languages
@@ -8,6 +11,7 @@ name = "c"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "clang-format" }
 auto-format = true
+language-servers = ["clangd-c"]
 
 [[language]]
 name = "cpp"
