@@ -5,6 +5,15 @@ command = "clangd"
 [language-server.clangd-c.config]
 fallbackFlags = ["-xc","-std=c11","-Wpedantic","-Wall","-Wextra","-Werror","-Iinclude"]
 
+[language-server.clangd-cpp]
+command = "clangd"
+
+[language-server.clangd-cpp.config]
+fallbackFlags = ["-xc++","-std=c++17","-Wpedantic","-Wall","-Wextra","-Werror","-Iinclude"]
+
+[language-server.qmlls]
+command = "qmlls6"
+
 # Low Level Languages
 [[language]]
 name = "c"
@@ -18,6 +27,7 @@ name = "cpp"
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "clang-format" }
 auto-format = true
+language-servers = ["clangd-cpp"]
 
 [[language]]
 name = "rust"
