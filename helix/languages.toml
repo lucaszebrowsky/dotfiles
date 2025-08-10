@@ -14,12 +14,16 @@ fallbackFlags = ["-xc++","-std=c++17","-Wpedantic","-Wall","-Wextra","-Werror","
 [language-server.qmlls]
 command = "qmlls6"
 
+[[language]]
+name = "qml"
+auto-format = true
+
 # Low Level Languages
 [[language]]
 name = "c"
+auto-format = true
 indent = { tab-width = 4, unit = "\t" }
 formatter = { command = "clang-format" }
-auto-format = true
 language-servers = ["clangd-c"]
 
 [[language]]
