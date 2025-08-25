@@ -1,0 +1,55 @@
+auto-update = off
+
+window-decoration = server
+window-new-tab-position = end
+window-save-state = always
+
+foreground = #c4c4b5
+background = #0f0f0f
+
+font-family = "Adwaita Mono"
+font-size = 18
+
+cursor-style-blink = false
+
+window-padding-x = 5
+window-padding-y = 5
+
+background-opacity = 0.9
+background-blur = true
+
+palette = 0=#191919
+palette = 1=#f3005f
+palette = 2=#97e023
+palette = 3=#f2f200
+palette = 4=#007cd0
+palette = 5=#f3005f
+palette = 6=#57d1ea
+palette = 7=#c4c4b5
+palette = 8=#615e4b
+palette = 9=#f3005f
+palette = 10=#97e023
+palette = 11=#dfd561
+palette = 12=#9c64fe
+palette = 13=#f3005f
+palette = 14=#57d1ea
+palette = 15=#f6f6ee
+
+selection-foreground = #191919
+selection-background = #c4c4b5
+
+# keybind = ctrl+t=new_tab
+# keybind = alt+one=goto_tab:1
+# keybind = alt+two=goto_tab:2
+# keybind = alt+three=goto_tab:3
+# keybind = alt+four=goto_tab:4
+# keybind = alt+five=goto_tab:5
+# keybind = alt+six=goto_tab:6
+# keybind = alt+seven=goto_tab:7
+# keybind = alt+eight=goto_tab:8
+# keybind = alt+nine=goto_tab:9
+# keybind = alt+ten=goto_tab:10
+# keybind = ctrl+alt+w=close_tab
+
+# gtk-wide-tabs = false
+# gtk-custom-css = ~/.config/ghostty/tab.css
