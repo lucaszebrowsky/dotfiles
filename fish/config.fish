@@ -12,16 +12,17 @@ alias gs="git status"
 alias gd="git diff"
 alias gc="git commit"
 alias gp="git push"
+alias ga="git add"
+
+# ESP-IDF
+alias get_idf=". ~/.esp/esp-idf/export.fish"
 
 # Env Variables
 set -U fish_greeting
 set -Ux GTK_USE_PORTAL 1
+set -gx SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
 
 if status is-interactive
-    # if test $TERM = xterm-kitty
-    #     alias ssh="kitten ssh"
-    # end
-
     # Use Helix as default terminal editor
     if type -q hx
         set -Ux EDITOR $(which hx)
