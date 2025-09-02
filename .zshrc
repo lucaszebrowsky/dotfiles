@@ -9,6 +9,9 @@ alias tls="tmux list-session"
 alias ..="cd .."
 alias ~="cd ~"
 
+export GPG_TTY=$(tty)
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
+
 function git_branch_name()
 {
   branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
