@@ -1,33 +1,36 @@
+# For Windows
+# [shell]
+# program = 'Ubuntu'
+
 [font]
-size = 16.0
+size = 17.0
 
 [font.normal]
-family = "FiraCode"
-style = "SemiBold"
+family = "Adwaita Mono"
+style = "Regular"
 
 [font.bold]
-family = "FiraCode"
+family = "Adwaita Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "FiraCode"
-style = "Bold"
+family = "Adwaita Mono"
+style = "Bold Italic"
 
 [font.italic]
-family = "FiraCode"
+family = "Adwaita Mono"
 style = "Italic"
 
 [window]
 opacity = 0.85
 blur = true
-padding = { x = 5, y = 5 }
-# option_as_alt = "OnlyLeft"
+padding = { x = 10, y = 10 }
 
 [cursor]
-style = { shape = "Beam", blinking = "On" }
+style = { shape = "Block", blinking = "Off" }
 
 [colors]
-selection = { text = "#262525", background = "#9c64fe" }
+selection = { text = "#0f0f0f" , background = "#c4c4b5" }
 
 [colors.primary]
 foreground = "#c4c4b5"
@@ -41,4 +44,4 @@ yellow = "#f2f200"
 blue = "#007acc"
 magenta = "#9c64fe"
 cyan = "#57d1ea"
-white = "#f6f6ee"
+white = "#c4c4b5"
