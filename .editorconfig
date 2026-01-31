@@ -1,0 +1,6 @@
+root = true
+
+# Helix uses 2 spaces, even if languags.toml overrides it
+# which absolutely sucks and barely made me switch my editor lol
+[*]
+indent_style = tab
